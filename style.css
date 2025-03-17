@@ -1,0 +1,424 @@
+body {
+    background-color: #f2f9f3; 
+    width:100%;
+    height: auto;
+    font-family:"Playwrite IT Moderna", serif;
+    font-optical-sizing: auto;
+    text-align:center;
+    color:#787474;
+}
+
+.thin {
+    font-weight: 200;
+}
+
+.light-off {
+    color: #969696;
+    opacity:100%;
+}
+
+.light-off:hover {
+    opacity:10%;
+    transition:all 300ms;
+    text-decoration:line-through;
+}
+
+@keyframes move1 {
+    0% { content: ""; }
+    14% { content: "s"; }
+    28% { content: "ss"; }
+    42% { content: "sss"; }
+    56% { content: "ssss"; }
+    70% { content: "sssss"; }
+    85% { content: "ssssss"; }
+    100% { content: "sssssss"; }
+}
+
+.tireless::after {
+    content: "Frivolous tireless";
+    animation: move1 3s steps(7) infinite alternate;
+}
+
+.echo {
+    color:#8d5e25;
+    font-family:"Moon Dance", serif;
+    font-size:1.7em;
+}
+
+.echo:hover {
+    color:#c0dcdc;
+    text-decoration:line-through;
+}
+
+.valleys {
+    color:green;
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+}
+
+.heart {
+    color:#d14242;
+    font-family: "Sixtyfour Convergence", serif;
+    font-weight: 400;
+}
+
+.soul {
+    color:#323bbe;
+    font-weight: 350;
+}
+
+.harvesting {
+    opacity: 80%;
+}
+
+.harvesting:hover {
+    text-decoration: line-through;
+    color:#525252;
+}
+
+@keyframes move2 {
+    0% { color: #5829e4; }
+    25% { color: #fbd28a; }
+    50% { color: #9f41c1; }
+    75% { color: #209670; }
+    100% { color: #bfb618}
+}
+  
+.repeat {
+    font-family: "Luckiest Guy", cursive;
+    animation: move2 2s infinite;
+}
+
+@keyframes move3 {
+    0%{ visibility: visible; }
+    50% { visibility: hidden; }
+    100% { visibility: visible; }
+}
+
+.well {
+    display: inline;
+    color:#fde008;
+    font-family: "Orbitron", sans-serif;
+}
+
+.well:hover {
+    animation: move3 0.6s step-start infinite;
+    text-decoration: none;
+}
+
+.swaying {
+    color: #e5aef3;
+}
+
+.desert {
+    color: #8d5e25;
+    font-family: "Rubik Bubbles", system-ui;
+}
+
+.oasis {
+    color: green;
+    font-family: "Sigmar", serif;
+}
+
+.believe {
+    font-size: large;
+    font-family: "Sigmar", serif;
+}
+
+.believe:hover {
+    text-shadow:0 0 25px #ffc21c;
+}
+
+.born {
+    color:#4248ffce;
+}
+
+.bright {
+    color: #f0de0e;
+}
+
+.summer {
+    color: #ffa95e;
+    font-family: "Send Flowers", cursive;
+    font-size:1.5em;
+}
+
+.flower {
+    color: #ff5e5e;
+    font-family: "Indie Flower", cursive;
+    font-size:1.3em;
+}
+
+.withered {
+    color: #07642f;
+    font-family: "Big Shoulders Stencil", sans-serif;
+}
+
+.demon {
+    color: rgb(123, 8, 8);
+    font-family: "Agu Display", serif;
+    font-size:1.1em;
+}
+
+.demon2 {
+    color: rgb(47, 8, 8);
+    font-family: "Agu Display", serif;
+    font-size:1.1em;
+}
+
+.demon:hover {
+    color:#c40000;
+}
+
+.demon2:hover {
+    color:#aa2626;
+}
+
+.breathing {
+    color: #93d6e5ce;
+}
+
+.cumbersome {
+    color: #5d5c5c;
+    font-family: "Rubik Bubbles", system-ui;
+    opacity: 60%;
+}
+
+.cumbersome:hover {
+    opacity: 100%;
+}
+
+.cumbersome2 {
+    color: #5d5c5c;
+    font-family: "Rubik Bubbles", system-ui;
+}
+
+.bored {
+    color: #a9a9a9;
+}
+
+@keyframes move5 {
+    0% { content: "."; }
+    20% { content: ".."; }
+    40% { content: "..."; }
+    60% { content: "...."; }
+    80% { content: "....."; }
+    100% { content: "......"; }
+}
+
+.bored:hover::after {
+    content: "Bored";
+    animation: move5 1.5s steps(7) infinite alternate;
+}
+
+.music {
+    color: #7246f5;
+    font-family: "Send Flowers", cursive;
+    font-size:1.5em;
+}
+
+.moon {
+    color: #fff650;
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+}
+
+.moon:hover {
+    color: #ffd65c;
+    font-size: 1.1em;
+}
+
+.carcass {
+    color: #209670;
+    font-family: "Indie Flower", cursive;
+    font-size:1.3em;
+}
+
+.extreme {
+    color:black;
+}
+
+.extreme:hover {
+    opacity: 0;
+}
+
+.aestheticism {
+    font-family: "Poiret One", sans-serif;
+    font-size:1.3em;
+}
+
+.capture:hover {
+    opacity: 40%;
+    text-shadow:0 0 40px #454444;
+}
+
+@keyframes move6 {
+    0% { opacity: 0; }
+    20% { opacity: 20%; }
+    40% { opacity: 40%; }
+    60% { opacity: 60%; }
+    80% { opacity: 80%; }
+    100% {opacity: 100%; }
+}
+
+.filling {
+    animation: move6 2s infinite alternate;
+}
+
+@keyframes move7 {
+    0% { color: #65d9ff; }
+    25% { color: #ffdc41; }
+    50% { color: #ef08ff; }
+    75% { color: #37ff55; }
+    100% { color: #ff0000}
+}
+
+.intense {
+    font-family: "Indie Flower", cursive;
+    animation: move7 2s infinite;
+}
+
+.pure {
+    font-family: "Sigmar", serif;
+    color: #65d9ff;
+    opacity: 60%;
+}
+
+.pure:hover {
+    opacity: 25%;
+}
+
+.memories {
+    font-family: "Libre Barcode 39", system-ui;
+}
+
+.memories:hover {
+    font-family:"Playwrite IT Moderna", serif;
+}
+
+.earth {
+    color: #0074b8;
+    font-family: "Monoton", sans-serif;
+}
+
+.earth2 {
+    color:#95704b;
+    font-family: "Monoton", sans-serif;
+}
+
+.earth3 {
+    color: #3cad83;
+    font-family: "Monoton", sans-serif;
+}
+
+.beauty {
+    color:#f63083;
+    font-family: "Poiret One", sans-serif;
+    font-size:1.3em;
+}
+
+.autumn {
+    color:#f67c30;
+    font-family: "Orbitron", sans-serif;
+}
+
+.autumn:hover {
+    color:#a98e09ce;
+}
+
+.leaves {
+    color:#a98e09ce;
+    font-family: "Orbitron", sans-serif;
+}
+
+.leaves:hover {
+    color:rgb(246, 124, 48);
+}
+
+.chaos {
+    color: #909090;
+    font-family: "Monoton", sans-serif;
+}
+
+.smoke {
+    text-shadow:12px -10px 23px #1d1d1d;
+}
+
+.wilt {
+    color: #8f8c49;
+    font-family: "Indie Flower", cursive;
+    font-size:1.3em;
+}
+
+.bone {
+    color:#d9d9d9;
+    font-family: "Sigmar", serif;
+}
+
+.qing-feng {
+    color: #3cad83;
+    font-family: "Bad Script", cursive;
+}
+
+.space {
+    opacity: 0;
+}
+
+img {
+    width:16%;
+    display:block;
+    margin:auto;
+}
+
+h4:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.heart-mouse {
+    cursor: url('cursor.cur'), auto;
+}
+
+.down-mouse {
+    cursor: url('star.cur'), auto;
+}
+
+.flower-mouse {
+    cursor: url("flower.cur"), auto;
+}
+
+.earth-mouse {
+    cursor: url("earth.cursor"),auto;
+}
+
+.hide {
+    opacity:0;
+}
+
+.button {
+    position: fixed;
+    bottom:10px;
+    left:10px;
+    background: black;
+    color:white;
+    padding:10px;
+    border-radius: 50px;
+    font-family:"Moon Dance", serif;
+}
+
+.modal {
+    position:absolute;
+    width:400px;
+    height:200px;
+    font-family: "Sigmar", serif;
+    background: #dadada;
+    padding:20px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display: none;
+}
+
+.show {
+    display:block;
+}
